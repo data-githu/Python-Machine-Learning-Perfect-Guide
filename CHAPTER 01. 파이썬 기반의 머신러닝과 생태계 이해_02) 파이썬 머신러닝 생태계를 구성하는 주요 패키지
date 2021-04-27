@@ -1,0 +1,23 @@
+02) 파이썬 머신러닝 생태계를 구성하는 주요 패키지
+
+- 머신러닝 패키지 : 사이킷런(Scikit-Learn) -> 데이터 마이닝 기반의 머신러닝에서 독보적인 위치
+- 행렬/선형대수/통계 패키지 : 파이썬의 대표적인 행렬과 선형대수를 다루는 패키지는 NumPy, 자연과학과 통계를 위한 다양한 패키지는 SciPy
+- 데이터 핸들링 : Pandas 는 파이썬 세계의 대표적인 데이터 처리 패키지 (2차원 데이터 처리에 특화), Matplotlib 을 호출해서 시각화 가능
+- 시각화  : Matplotlib 의 단점 -> 너무 세분화된 API 로 익히기가 번거롭고 디자인 부분에서도 투박한 면이 있다. 이를 보완하기 위해서 Seaborn 시각화 패키지 출시
+- 주피터 노트북 : 아이파이썬(IPython, Interactive Python)이란? 대화형 파이썬 툴
+
+01. 파이썬 머신러닝을 위한 S/W 설치
+- Anaconda 설치
+Anaconda Prompt -> python -V (파이썬 버전 확인)
+
+- Jupyter 노트북에서 필요한 모듈 설치되었는지 확인
+import numpy
+import pandas
+import matplotlib.pyplot
+import seaborn
+from sklearn.model_selection import train_test_split
+
+- Microsoft Visual Studio Build Tools 
+
+Anaconda 와 Microsoft Visual Studio Build Tools 가 설치되었다면 파이썬 머신러닝을 위한 환경 구성을 완료!
+
